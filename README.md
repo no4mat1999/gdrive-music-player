@@ -1,3 +1,2 @@
 # GDRIVE MUSIC PLAYER
-Primera versión
-(v1.png)
+![Primera versión](./v1.png)
