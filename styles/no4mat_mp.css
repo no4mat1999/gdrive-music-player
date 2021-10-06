@@ -1,0 +1,91 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+@font-face {
+    font-family: 'tahoma';
+    src: url('tahoma.ttf');
+}
+  
+body {
+    background-color: #C389CC;
+}
+
+button {
+    background-color: #212121;
+    color: white;
+    border: 1px #121212 solid;
+    padding: 5px;
+    border-radius: 10px;
+    
+}
+
+footer {
+    font-family: 'tahoma';
+    font-size: 70%;
+    color: #1A1A1A;
+    position: fixed;
+    bottom: 0;
+}
+
+#player {
+    font-family: 'tahoma';
+    background-color: #212121;
+    color: white;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    border: 1px #121212 solid;
+    padding: 20px;
+}
+
+#album_art {
+    background-color: white;
+    width: 300px;
+    height: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    border: 1px #121212 solid;
+}
+
+#description {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+    #album {
+        font-size: 80%;
+    }
+
+    #artist {
+        font-size: 80%;
+    }
+
+#seek {
+    width: 100%;
+}
+
+#buttons {
+    text-align: center;
+}
+
+#playlist {
+    font-family: 'tahoma';
+    background-color: #212121;
+    color: white;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    border: 1px #121212 solid;
+    padding: 20px;
+    visibility: hidden;
+}

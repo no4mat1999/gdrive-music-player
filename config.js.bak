@@ -1,0 +1,5 @@
+const config = {
+    api: "http://api.com"
+}
+
+export default config

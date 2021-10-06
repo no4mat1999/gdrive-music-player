@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="icon" type="image/png" href="favicon.png">
+        <meta content='width=device-width, initial-scale=1' name='viewport'/>
+        <title>no4mat Music Player</title>
+        <link href="styles/normalize.css" rel="stylesheed">
+        <link href="styles/no4mat_mp.css" rel="stylesheet">
+    </head>
+    <body>
+        <main>
+            <div id="player">
+                <img id="album_art" src="images/default.png">
+                <div id="description">
+                    <div id="album">Album</div>
+                    <div id="title">Titulo</div>
+                    <div id="artist">Artist</div>
+                </div>
+                <input type="range" min="1" max="100" value="0" id="seek" onchange="seekTo()">
+                <div id="buttons">
+                    <button id="prev">Prev</button>
+                    <button id="play">Play</button>
+                    <button id="pause">Pause</button>
+                    <button id="next">Next</button>
+                    <button id="showpl">Playlist</button>
+                </div>
+            </div>
+            <div id="playlist">
+                <div id="buttons">
+                    <button id="prev">Prev</button>
+                    <button id="play">Play</button>
+                    <button id="pause">Pause</button>
+                    <button id="next">Next</button>
+                    <button id="hiddepl">Playlist</button>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <p>no4mat1999</p>
+        </footer> 
+    </body>
+    <script src="js/no4mat_mp.js" type="module" type="text/javascript"></script>
+</html>
